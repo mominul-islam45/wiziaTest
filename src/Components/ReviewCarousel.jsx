@@ -33,7 +33,7 @@ function ReviewCarousel() {
         {/* quotation icon */}
         <div className="size-[56px] sm:size-[72px] bg-light_bg rounded-full flex items-center justify-center">
           <img
-            src="../src/assets/quotation.png"
+            src="./quotation.png"
             className="w-[27px] sm:w-[36px]"
             alt=""
           />

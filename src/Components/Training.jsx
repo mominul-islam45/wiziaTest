@@ -22,7 +22,7 @@ function Training() {
         <div className="pt-4 sm:pt-6 grid grid-cols-1 lg:grid-cols-2 space-y-2 md:space-y-4">
             {checkList.map((item,i)=>(
                 <div key={i} className="flex gap-x-2 items-center">
-                    <img src="../src/assets/Vector2.png" alt="" className="size-[14px] sm:size-[19.5px]"/>
+                    <img src="/Vector2.png" alt="" className="size-[14px] sm:size-[19.5px]"/>
                     <p className="text-cyan text-base sm:text-xl font-medium hover:text-white hover:cursor-pointer transition-colors">{item}</p>
                 </div>
             ))}

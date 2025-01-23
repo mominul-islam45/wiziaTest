@@ -4,7 +4,7 @@ import { Button } from '@heroui/react'
 // Button End Icon
 export const UpperArrowIcon = ()=>{
     return(
-        <img src="../src/assets/Vector.png" alt="" />
+        <img src="./Vector.png" alt="" />
     )
 }
 function Hero() {
