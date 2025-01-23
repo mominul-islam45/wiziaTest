@@ -12,7 +12,7 @@ function Improvement_Percentage() {
   const [counterUp, setCounterUp] = useState(false);
 
   return (
-    <div className="py-10 md:py-20 mx-8 md:mx-16 2xl:mx-auto max-w-[1700px] px-6 sm:px-12 lg:px-16 2xl:px-24 text-white rounded-3xl bg-[url(./assets/Frame18.png)] bg-cover bg-left sm:bg-right space-y-4 md:space-y-12">
+    <div className="py-10 md:py-20 mx-8 md:mx-16 2xl:mx-auto max-w-[1700px] px-6 sm:px-12 lg:px-16 2xl:px-24 text-white rounded-3xl bg-[url(./Frame18.png)] bg-cover bg-left sm:bg-right space-y-4 md:space-y-12">
       <div className="lg:w-2/3 xl:w-1/2">
         <h2 className="text-[28px] sm:text-[32px] font-semibold">
           Allocate effort where your reps make an inpact.

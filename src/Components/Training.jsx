@@ -10,7 +10,7 @@ function Training() {
     ]
 
   return (
-    <div className="py-10 md:py-20 mx-8 md:mx-16 2xl:mx-auto max-w-[1700px] px-6 text-white rounded-3xl bg-[url(./assets/image.png)] bg-cover  grid grid-cols-1 place-items-center ">
+    <div className="py-10 md:py-20 mx-8 md:mx-16 2xl:mx-auto max-w-[1700px] px-6 text-white rounded-3xl bg-[url(./image.png)] bg-cover  grid grid-cols-1 place-items-center ">
       <div>
         <h2 className="text-[28px] sm:text-[40px] font-semibold">Train your aiDR on your...</h2>
         <span className="italic text-[28px] sm:text-[40px] text-cyan font-medium">prefered email st|</span>
