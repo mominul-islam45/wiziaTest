@@ -10,7 +10,7 @@ export const UpperArrowIcon = ()=>{
 function Hero() {
     
   return (
-    <section className='w-full bg-[url(Img.png)] sm:bg-cover bg-contain'>
+    <section className='w-full bg-[url(/Img.png)] sm:bg-cover bg-contain'>
         <div className='text-white w-full md:w-[600px] xl:w-[700px] 2xl:w-[1000px] pt-16 sm:pt-28 pb-20 space-y-2 sm:space-y-4 px-6 sm:px-12 md:px-20 xl:px-28 2xl:px-52 text-center md:text-start'>
             <h6 className='text-cyan text-base sm:text-2xl'>AI SDRs (aiDRs)</h6>
             <h2 className='text-[40px] md:text-6xl font-bold leading-tight sm:leading-none'>More <span className='font-medium italic'>leads, <br /></span> less <span className='font-medium italic'>people.</span></h2>
