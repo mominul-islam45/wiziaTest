@@ -1,13 +1,13 @@
 import React from 'react'
-import BackHub from '/BackHub logo.png'
-import CableLabs from '/CableLabs logo.png'
-import DBS from '/DBS logo.png'
-import EasyEuro from '/EasyEuro logo.png'
-import AMD from '/AMD logo.png'
-
 
 function Partners() {
-    const partnersList = [BackHub, CableLabs, DBS, EasyEuro, AMD]
+    const partnersList = [
+      './BackHub logo.png',
+      './CableLabs logo.png',
+      './DBS logo.png',
+      './EasyEuro logo.png',
+      './AMD logo.png'
+    ]
   return (
     <section className='bg-light_bg py-14'>
         <p className=' uppercase text-cyan text-center mb-5'>our trusted partners</p>

@@ -1,23 +1,20 @@
 import React from 'react'
-import ControlIcon from '/src/assets/Vector3.png'
-import ScalableIcon from '/src/assets/Vector5.png'
-import FlexibleIcon from '/src/assets/Vector4.png'
 
 function Features() {
 
     const featuresList = [
         {
-            icon: ControlIcon,
+            icon: './src/assets/Vector3.png',
             title: 'You’re in Control',
             description: 'aiDRs operate based on your rules. You guide the machine, the aiDRs execute the work.'
         },
         {
-            icon: ScalableIcon,
+            icon: './src/assets/Vector5.png',
             title: 'Infinitely Scalable',
             description: 'Train an aiDR on a patch. When you are happy with the results, scale it effortlessly.'
         },
         {
-            icon: FlexibleIcon,
+            icon: './src/assets/Vector5.png',
             title: 'Incredibly Flexible',
             description: 'Train an aiDR on an outbound patch, to nurture inbound leads, or to reach out to your long tail of SMB customers at renewal time.'
         }

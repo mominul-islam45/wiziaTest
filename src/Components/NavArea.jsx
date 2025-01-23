@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button} from '@heroui/react'
-import WiziaLogo from '/wizia logo 1.png'
 
 function NavArea() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +11,7 @@ function NavArea() {
     <>
       <Navbar onMenuOpenChange={setIsMenuOpen} isBlurred={false} shouldHideOnScroll={true} maxWidth="xl" className="bg-dark_bg border-b-small border-b-white/15">
         <NavbarBrand>
-          <img src={WiziaLogo} alt="Wizia Logo" />
+          <img src="./wizia logo 1.png" alt="Wizia Logo" />
         </NavbarBrand>
 
         <NavbarContent className="hidden lg:flex gap-4" justify="center">

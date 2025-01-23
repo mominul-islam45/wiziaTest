@@ -1,5 +1,4 @@
 import React from 'react'
-import Arrow from '../assets/Vector.svg'
 
 function ReviewCarouselControls({slides, currentIndex, setCurrentIndex}) {
 
@@ -17,11 +16,11 @@ function ReviewCarouselControls({slides, currentIndex, setCurrentIndex}) {
   return (
     <>
       <button onClick={prevBtn} className=' group hidden md:block rotate-180 bg-light_bg p-2 rounded-md absolute top-[250px] md:left-[60px] lg:left-[100px] xl:left-[150px]'>
-        <img src={Arrow} alt="" className='group-hover:opacity-50 transition-opacity'/>
+        <img src="./src/assets/Vector.svg" alt="" className='group-hover:opacity-50 transition-opacity'/>
       </button>
 
       <button onClick={nextBtn} className='group hidden md:block bg-light_bg p-2 rounded-md absolute top-[250px] md:right-[60px] lg:right-[100px] xl:right-[150px]'>
-        <img src={Arrow} alt="" className='group-hover:opacity-50 transition-opacity'/>
+        <img src="./src/assets/Vector.svg" alt="" className='group-hover:opacity-50 transition-opacity'/>
       </button>
 
       {/* Dots */}
