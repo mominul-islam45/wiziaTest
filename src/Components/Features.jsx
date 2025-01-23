@@ -4,17 +4,17 @@ function Features() {
 
     const featuresList = [
         {
-            icon: './src/assets/Vector3.png',
+            icon: '../src/assets/Vector3.png',
             title: 'You’re in Control',
             description: 'aiDRs operate based on your rules. You guide the machine, the aiDRs execute the work.'
         },
         {
-            icon: './src/assets/Vector5.png',
+            icon: '../src/assets/Vector5.png',
             title: 'Infinitely Scalable',
             description: 'Train an aiDR on a patch. When you are happy with the results, scale it effortlessly.'
         },
         {
-            icon: './src/assets/Vector5.png',
+            icon: '../src/assets/Vector5.png',
             title: 'Incredibly Flexible',
             description: 'Train an aiDR on an outbound patch, to nurture inbound leads, or to reach out to your long tail of SMB customers at renewal time.'
         }
