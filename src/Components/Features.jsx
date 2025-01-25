@@ -14,7 +14,7 @@ function Features() {
             description: 'Train an aiDR on a patch. When you are happy with the results, scale it effortlessly.'
         },
         {
-            icon: './Vector5.png',
+            icon: './Vector4.png',
             title: 'Incredibly Flexible',
             description: 'Train an aiDR on an outbound patch, to nurture inbound leads, or to reach out to your long tail of SMB customers at renewal time.'
         }
